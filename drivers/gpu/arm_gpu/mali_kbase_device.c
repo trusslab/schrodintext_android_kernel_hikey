@@ -671,3 +671,4 @@ void _mali_profiling_control(u32 action, u32 value)
 }
 KBASE_EXPORT_SYMBOL(_mali_profiling_control);
 
+

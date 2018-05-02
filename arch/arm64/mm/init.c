@@ -474,7 +474,7 @@ void __init mem_init(void)
 	/*
 	 * Make sure we chose the upper bound of sizeof(struct page)
 	 * correctly.
-	 */
+	 */ 
 	BUILD_BUG_ON(sizeof(struct page) > (1 << STRUCT_PAGE_MAX_SHIFT));
 
 	if (PAGE_SIZE >= 16384 && get_num_physpages() <= 128) {

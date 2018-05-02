@@ -4182,3 +4182,4 @@ void kbase_trace_mali_total_alloc_pages_change(long long int event)
 #ifdef CONFIG_MALI_SYSTEM_TRACE
 #include "mali_linux_kbase_trace.h"
 #endif
+
